@@ -21,6 +21,8 @@ First, AutoStartup takes in an "intuition" from the user. An example being "I th
 	- Utilize [10x-React-Engineer](https://github.com/jawerty/10x-react-engineer) (a project I built on a stream a couple days before this one) to generate the codebase
 4) (optional) Make a pivot based on the user's feedback
 
+![Screen Shot 2023-08-17 at 2 22 25 AM](https://github.com/jawerty/AutoStartup/assets/1999719/e514d74f-5687-46c6-9e17-afe729c68241)
+
 ## Features
 - 100% Llama 2 Inference
 	- No OpenAI keys necessary
@@ -34,6 +36,7 @@ First, AutoStartup takes in an "intuition" from the user. An example being "I th
 # How to use it
 Please understand you need to have a quality GPU that can load the LLama 2 13b parameter chat model. Hpwever, I built this all on Google Colab and think this is a great way to get around the costs of AI Agents + GPT-4.
 
+![Screen Shot 2023-08-15 at 2 26 35 AM](https://github.com/jawerty/AutoStartup/assets/1999719/d182ff78-77f3-46de-bd3b-7255b2918ec4)
 
 ### Run from source
 If you want to run from source run these commands. (*After getting access to llama 2 and logging into huggingface-cli*)
