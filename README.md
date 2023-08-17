@@ -18,7 +18,18 @@ First, AutoStartup takes in an "intuition" from the user. An example being "I th
 			- Else: restart loop with new plan
 	- Generate a product idea from finalized business plan
 3) Generates React Codebase
-	- Utilize 
+	- Utilize [10x-React-Engineer](https://github.com/jawerty/10x-react-engineer) (a project I built on a stream a couple days before this one) to generate the codebase
+4) (optional) Make a pivot based on the user's feedback
+
+## Features
+- 100% Llama 2 Inference
+	- No OpenAI keys necessary
+- React Codebase Generation
+- Memory
+	- Vector search for historically successful ideas paired with intuitions.
+	- Previous criticisms are utilized for investor approvals
+- Lean Startup concepts
+	- Utilizes lean startup methodologies (pivot, tight mvp build loop)
 
 # How to use it
 Please understand you need to have a quality GPU that can load the LLama 2 13b parameter chat model. Hpwever, I built this all on Google Colab and think this is a great way to get around the costs of AI Agents + GPT-4.
