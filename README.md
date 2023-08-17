@@ -2,7 +2,7 @@
 Coding was livestreamed here -> https://youtube.com/live/ZCyxDRSw0wE
 
 # What is this?
-AutoStartup is a Llama 2 autonomous agent built around the https://github.com/jawerty/10x-react-engineer project. It divises a startup idea, business plans and generates React codebases all based on a simple user input "intuition".
+AutoStartup is a Llama 2 autonomous agent built around the https://github.com/jawerty/10x-react-engineer project. It divises a startup idea, business plans and generates React codebases all based on a simple user input "intuition". I built this on a live stream on August 16th, 2023 in 6 and a half hours. Have been challenging myself to build more and have fun doing it!
 
 # How it works
 First, AutoStartup takes in an "intuition" from the user. An example being "I think a website for dogsitters would be cool". Then the Agent divises a business idea from this as well as a business plan. It will iterate on the business plan with "Criticisms" (similar to [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT)). After each criticism it'll adjust the business plan and "pitch" to an investor prompt. The investor will either approve or disapprove of the final plan. After this final approval it will generate the code base and perform "pivots" based on user feedback
